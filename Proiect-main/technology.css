@@ -1,0 +1,192 @@
+body{
+    background-image: url('assets/technology/background-technology-desktop.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.title-technology{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.title-technology span{
+    color: #FFF;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 4.725px;
+    opacity: 0.25;
+    float: left;
+}
+.title-technology h2{
+    color: #FFF;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4.725px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+.main-technology
+{
+    display: flex;
+    margin-bottom: 100px;
+}
+.left-column-technology
+{
+    width: 60%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.content-technology{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+.circle-navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.circle-navbar-items{
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.circle-navbar-items a{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    color: white;
+}
+.circle-navbar-items p{
+    font-family: 'Bellefair', serif;
+    line-height: 60px;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.circle-navbar-items p:hover{
+    color: #000;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+.circle-navbar-items p.active{
+    color: #000;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+.circle-navbar-content{
+    margin-left: 10%;
+}
+.circle-navbar-content span{
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
+.circle-navbar-content h1{
+    color: #FFF;
+    font-family: 'Bellefair', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 20px 0 20px 0;
+}
+.circle-navbar-content p{
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: justify; 
+}
+.right-column-technology
+{
+    width: 40%;
+    margin-left: 10%;
+    height: 600px;
+}
+.technology-vehicle-img{
+    background-image: url('assets/technology/image-launch-vehicle-portrait.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.technology-spaceport-img{
+    background-image: url('assets/technology/image-spaceport-portrait.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.technology-capsule-img{
+    background-image: url('assets/technology/image-space-capsule-portrait.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* style for tablet */
+@media (max-width: 740px) {
+    body{
+        background-image: url('assets/technology/background-technology-tablet.jpg');
+    }
+    .title-technology{
+        padding: 5%;
+    }
+    .title-technology span,
+    .title-technology h2{
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin: 10px;
+    }
+    .main-technology{
+        flex-direction: column-reverse;
+    }
+    .right-column-technology{
+        height: 300px;
+        width: 100%;
+        margin: 0;
+    }
+    .technology-vehicle-img{
+        background-image: url('assets/technology/image-launch-vehicle-landscape.jpg');
+    }
+    .technology-spaceport-img{
+        background-image: url('assets/technology/image-spaceport-landscape.jpg');
+    }
+    .technology-capsule-img{
+        background-image: url('assets/technology/image-space-capsule-landscape.jpg');
+    }
+    .content-technology{
+        flex-direction: column;
+    }
+    .left-column-technology{
+        width: 100%;
+        padding: 0;
+    }
+    .circle-navbar{
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    .circle-navbar-items{
+        margin-right: 20px;
+    }
+    .circle-navbar-content{
+        margin: 0;
+        text-align: center;
+    }
+    .circle-navbar-content p{
+        width: 60%;
+        margin: auto;
+        text-align: center; 
+    }
+    
+}
