@@ -14,8 +14,8 @@ body{
     padding-left: 12%;
 }
 .title-crew{
-    margin-top: 10%;
-    margin-bottom: 15%;
+    margin: 4% 12%;
+    
 }
 .title-crew span{
     color: #FFF;
@@ -25,7 +25,7 @@ body{
     letter-spacing: 3px;
     opacity: 0.25;
 }
-.title-crew h2{
+.title-crew h1{
     display: inline;
     margin-left: 10px;
     color: #FFF;
@@ -101,12 +101,11 @@ ul{
 .dots-navbar a.active::after {
    height: 100%;
 }
-/* Incerca sa faci cu div-uri rotunde */
+
 /* --------------- */
 
 .right-column-crew{
     flex: 1;
-    margin-top: 6%;
 }
 
 .right-column-crew img{
@@ -114,7 +113,8 @@ ul{
     flex-shrink: 0;
 }
 
-@media (max-width: 740px) {
+/* style for tablet */
+@media (max-width: 767px) {
     body{
         background-image: url('assets/crew/background-crew-tablet.jpg');
     }
@@ -127,8 +127,11 @@ ul{
     .title-crew{
         margin: 5%;
     }
-    .title-crew span,
-    .title-crew h2{
+    .title-crew span{
+        font-size: 24px;
+        font-weight: 700; 
+    }
+    .title-crew h1{
         font-size: 22px;
         letter-spacing: 3.3px;
     }
@@ -160,4 +163,42 @@ ul{
         height: 450px;
     }
     
+}
+
+/* style for mobile */
+@media screen and (max-width: 375px){
+    body{
+        background-image: url('assets/crew/background-crew-mobile.jpg');
+    }
+    .title-crew{
+        text-align: center;
+    }
+    .main-crew{
+        flex-direction: column-reverse;
+    }
+    .right-column-crew{
+        border-bottom: 2px solid #383B4B;
+        width: 90%;
+        margin: auto;
+        padding: 0;
+    }
+    .right-column-crew img{
+        height: 250px;
+        margin-bottom: -3px;
+    }
+    .left-column-crew{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+    .left-column-crew h1{
+        font-size: 30px;
+    }
+    .crew-description{
+        width: 300px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
 }

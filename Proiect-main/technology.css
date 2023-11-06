@@ -6,6 +6,7 @@ body{
     height: 100vh;
 }
 .title-technology{
+    display: flex;
     padding-top: 5%;
     padding-left: 10%;
 }
@@ -16,7 +17,7 @@ body{
     font-weight: 700;
     letter-spacing: 4.725px;
     opacity: 0.25;
-    float: left;
+    display: inline;
 }
 .title-technology h2{
     color: #FFF;
@@ -134,7 +135,7 @@ body{
 
 
 /* style for tablet */
-@media (max-width: 740px) {
+@media (max-width: 767px) {
     body{
         background-image: url('assets/technology/background-technology-tablet.jpg');
     }
@@ -189,4 +190,35 @@ body{
         text-align: center; 
     }
     
+}
+
+/* style for mobile */
+@media screen and (max-width: 375px){
+    body{
+        background-image: url('assets/technology/background-technology-mobile.jpg');
+    }
+    .title-technology{
+        justify-content: center;
+    }
+    .main-technology{
+        margin: 0;
+    }
+    .right-column-technology{
+        height: 180px;
+    }
+    .circle-navbar-items{
+        width: 40px;
+        height: 40px;
+    }
+    .circle-navbar-items p{
+        line-height: 40px;
+    }
+    .circle-navbar-content h1{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .circle-navbar-content p{
+        width: 90%;
+        margin-bottom: 30px;
+    }
 }

@@ -74,7 +74,7 @@ body{
 
 
 /* style for tablet */
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     body{
         background-image: url('assets/home/background-home-tablet.jpg');
     }
@@ -107,3 +107,33 @@ body{
         align-items: center;
     }
 }
+
+/* style for mobile */
+@media screen and (max-width: 375px){
+    body{
+        background-image: url('assets/home/background-home-mobile.jpg');
+    }
+    .left-column h5{
+        font-size: 16px;
+        letter-spacing: 2.7px;
+    }
+    .left-column h1{
+        font-size: 80px;
+    }
+    .left-column p{
+        width: 100%;
+        padding: 0 30px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .explore{
+        width: 150px;
+        height: 150px;
+    }
+    .explore a{
+        font-size: 20px;
+        line-height: 150px;
+    }
+}
+
+
