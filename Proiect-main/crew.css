@@ -1,3 +1,5 @@
+@import url(globals.css);
+
 body{
     background-image: url('assets/crew/background-crew-desktop.jpg');
     background-position: top;
@@ -17,48 +19,17 @@ body{
     margin: 4% 12%;
     
 }
-.title-crew span{
-    color: #FFF;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    opacity: 0.25;
-}
-.title-crew h1{
-    display: inline;
-    margin-left: 10px;
-    color: #FFF;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 26px;
-    font-weight: 400;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
-.subtitle{
+.role{
     color: #FFF;
     font-family: 'Bellefair', serif;
-    font-size: 28px;
+    font-size: 32px;
+    font-style: normal;
     font-weight: 400;
+    line-height: normal;
     text-transform: uppercase;
     opacity: 0.5042;
 }
-.left-column-crew h1{
-    color: #FFF;
-    font-family: 'Bellefair', serif;
-    font-size: 48px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 10px 0 30px 0;
-}
-.crew-description{
-    width: 400px;
-    color: #D0D6F9;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32px;
-}
+
 
 /* --------------- */
 

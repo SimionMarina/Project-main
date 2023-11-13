@@ -1,3 +1,5 @@
+@import url(globals.css);
+
 body{
     background-image: url('assets/destination/background-destination-desktop.jpg');
     background-position: top;
@@ -13,25 +15,6 @@ body{
     padding-left: 10%;
     padding-top: 4%;
     flex:1;
-}
-.title-destination span{
-    color: #FFF;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    opacity: 0.25;
-    margin-left: 20px;
-}
-.title-destination h2{
-    display: inline;
-    margin-left: 10px;
-    color: #FFF;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 28px;
-    font-weight: 400;
-    letter-spacing: 4px;
-    text-transform: uppercase;
 }
 .image-destination{
     padding-left: 15%;
@@ -66,15 +49,6 @@ body{
     font-size: 80px;
     text-transform: uppercase;
     font-weight: 400;
-}
-.article-destination p{
-    color: #D0D6F9;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32px; 
-    text-align: justify;
-    width: 400px;
 }
 .hr-destination{
     width: 400px;

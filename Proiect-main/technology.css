@@ -1,3 +1,5 @@
+@import url(globals.css);
+
 body{
     background-image: url('assets/technology/background-technology-desktop.jpg');
     background-position: top;
@@ -9,24 +11,6 @@ body{
     display: flex;
     padding-top: 5%;
     padding-left: 10%;
-}
-.title-technology span{
-    color: #FFF;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: 4.725px;
-    opacity: 0.25;
-    display: inline;
-}
-.title-technology h2{
-    color: #FFF;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 4.725px;
-    margin-left: 50px;
-    text-transform: uppercase;
 }
 .main-technology
 {
@@ -91,22 +75,6 @@ body{
     font-weight: 400;
     letter-spacing: 2.7px;
     text-transform: uppercase;
-}
-.circle-navbar-content h1{
-    color: #FFF;
-    font-family: 'Bellefair', serif;
-    font-size: 50px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 20px 0 20px 0;
-}
-.circle-navbar-content p{
-    color: #D0D6F9;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: justify; 
 }
 .right-column-technology
 {
@@ -218,7 +186,7 @@ body{
         margin: 10px 0;
     }
     .circle-navbar-content p{
-        width: 90%;
-        margin-bottom: 30px;
+        width: 95%;
+        margin-bottom: 20px;
     }
 }
