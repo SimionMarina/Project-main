@@ -15,7 +15,7 @@ body{
 .main-technology
 {
     display: flex;
-    margin-bottom: 100px;
+    
 }
 .left-column-technology
 {
@@ -118,6 +118,7 @@ body{
     }
     .main-technology{
         flex-direction: column-reverse;
+        margin-bottom: 0;
     }
     .right-column-technology{
         height: 300px;
